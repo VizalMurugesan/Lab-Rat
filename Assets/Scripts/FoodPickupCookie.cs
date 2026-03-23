@@ -1,20 +1,25 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class FoodPickupCookie : MonoBehaviour
 {
     public int pointValue = 3;
+    private XRGrabInteractable grab; 
 
-    void Start()
+       void Start()
     {
-        UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grab = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+        grab = GetComponent<XRGrabInteractable>(); 
         if (grab != null)
             grab.selectEntered.AddListener(OnGrab);
     }
 
-    void OnGrab(SelectEnterEventArgs args)
-    {
+void OnGrab(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs args)
+{
+    if (ScoreManager.instance != null)
         ScoreManager.instance.AddPoints(pointValue);
-        Destroy(gameObject);
-    }
+    else
+        Debug.LogError("ScoreManager not found in scene!");
+
+    Destroy(gameObject);
+}
 }
