@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 16566513}
   - component: {fileID: 16566512}
   - component: {fileID: 16566514}
+  - component: {fileID: 16566515}
   m_Layer: 0
   m_Name: Cheese 6 (1)
   m_TagString: Untagged
@@ -251,10 +252,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &16566513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +398,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &16566515
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16566507}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028363846, z: 0.010968405}
 --- !u!1001 &23983299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -840,6 +862,7 @@ GameObject:
   - component: {fileID: 51296357}
   - component: {fileID: 51296359}
   - component: {fileID: 51296358}
+  - component: {fileID: 51296360}
   m_Layer: 0
   m_Name: Cookie 9
   m_TagString: Untagged
@@ -967,10 +990,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &51296358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,6 +1136,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &51296360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51296352}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -1.3562827e-10, y: -0.00000023828295, z: 0.0022756814}
 --- !u!1 &58696336 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8378657409892807486, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -1271,6 +1315,7 @@ GameObject:
   - component: {fileID: 104503457}
   - component: {fileID: 104503456}
   - component: {fileID: 104503458}
+  - component: {fileID: 104503459}
   m_Layer: 0
   m_Name: Cheese 5
   m_TagString: Untagged
@@ -1388,10 +1433,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &104503457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,6 +1579,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &104503459
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104503451}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028362952, z: 0.010968412}
 --- !u!1 &111035647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2591,7 @@ GameObject:
   - component: {fileID: 212566214}
   - component: {fileID: 212566213}
   - component: {fileID: 212566215}
+  - component: {fileID: 212566216}
   m_Layer: 0
   m_Name: Cheese 8
   m_TagString: Untagged
@@ -2642,10 +2709,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &212566214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2788,6 +2855,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &212566216
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212566208}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019229928, y: 0.0028362952, z: 0.0109683825}
 --- !u!1 &239782779 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1822499444378424633, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -2829,6 +2917,7 @@ GameObject:
   - component: {fileID: 240186013}
   - component: {fileID: 240186015}
   - component: {fileID: 240186014}
+  - component: {fileID: 240186016}
   m_Layer: 0
   m_Name: Cookie 14
   m_TagString: Untagged
@@ -2956,10 +3045,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &240186014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3102,6 +3191,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &240186016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240186008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.000000044839112, y: 0.0000002385542, z: 0.002275823}
 --- !u!1 &250865435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3297,6 +3407,7 @@ GameObject:
   - component: {fileID: 262376352}
   - component: {fileID: 262376351}
   - component: {fileID: 262376353}
+  - component: {fileID: 262376354}
   m_Layer: 0
   m_Name: Cheese 12
   m_TagString: Untagged
@@ -3414,10 +3525,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &262376352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3560,6 +3671,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &262376354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262376346}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230405, y: 0.0028359971, z: 0.010968293}
 --- !u!4 &271404938 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -3769,6 +3901,7 @@ GameObject:
   - component: {fileID: 313509850}
   - component: {fileID: 313509849}
   - component: {fileID: 313509851}
+  - component: {fileID: 313509852}
   m_Layer: 0
   m_Name: Cheese 7
   m_TagString: Untagged
@@ -3886,10 +4019,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &313509850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4032,6 +4165,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &313509852
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313509844}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028363548, z: 0.010968353}
 --- !u!1 &317954498
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,6 +4201,7 @@ GameObject:
   - component: {fileID: 317954503}
   - component: {fileID: 317954505}
   - component: {fileID: 317954504}
+  - component: {fileID: 317954506}
   m_Layer: 0
   m_Name: Cookie 2
   m_TagString: Untagged
@@ -4174,10 +4329,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &317954504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4320,6 +4475,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &317954506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317954498}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -1.3562827e-10, y: 0.00000011934492, z: 0.0022757186}
 --- !u!1 &318449631 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2931588537158594475, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -5421,6 +5597,7 @@ GameObject:
   - component: {fileID: 379398360}
   - component: {fileID: 379398362}
   - component: {fileID: 379398361}
+  - component: {fileID: 379398363}
   m_Layer: 0
   m_Name: Cookie 8
   m_TagString: Untagged
@@ -5548,10 +5725,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &379398361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5694,6 +5871,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &379398363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379398355}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -1.3562827e-10, y: 0.00000011934492, z: 0.0022757037}
 --- !u!1 &386467535
 GameObject:
   m_ObjectHideFlags: 0
@@ -6083,6 +6281,7 @@ GameObject:
   - component: {fileID: 423380253}
   - component: {fileID: 423380252}
   - component: {fileID: 423380254}
+  - component: {fileID: 423380255}
   m_Layer: 0
   m_Name: Cheese 7
   m_TagString: Untagged
@@ -6200,10 +6399,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &423380253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6346,6 +6545,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &423380255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423380247}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230643, y: 0.0028365932, z: 0.010968397}
 --- !u!1 &429862069
 GameObject:
   m_ObjectHideFlags: 0
@@ -6541,6 +6761,7 @@ GameObject:
   - component: {fileID: 446441893}
   - component: {fileID: 446441895}
   - component: {fileID: 446441894}
+  - component: {fileID: 446441896}
   m_Layer: 0
   m_Name: Cookie 12
   m_TagString: Untagged
@@ -6668,10 +6889,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &446441894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6814,6 +7035,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &446441896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446441888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000002993795, y: 1.3562844e-10, z: 0.0022755845}
 --- !u!1 &446562137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4412611893822787278, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -7774,6 +8016,7 @@ GameObject:
   - component: {fileID: 663851686}
   - component: {fileID: 663851688}
   - component: {fileID: 663851687}
+  - component: {fileID: 663851689}
   m_Layer: 0
   m_Name: Cookie 4
   m_TagString: Untagged
@@ -7901,10 +8144,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &663851687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8047,6 +8290,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &663851689
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663851681}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000002993795, y: 0.0000002385542, z: 0.0022754653}
 --- !u!1 &665626933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5898387866874653386, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -8114,6 +8378,7 @@ GameObject:
   - component: {fileID: 667673904}
   - component: {fileID: 667673903}
   - component: {fileID: 667673905}
+  - component: {fileID: 667673906}
   m_Layer: 0
   m_Name: Cheese 11
   m_TagString: Untagged
@@ -8231,10 +8496,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &667673904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8377,6 +8642,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &667673906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667673898}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230405, y: 0.0028361164, z: 0.0109683825}
 --- !u!1 &668633065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 430750632565747353, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -9485,6 +9771,7 @@ GameObject:
   - component: {fileID: 815877387}
   - component: {fileID: 815877389}
   - component: {fileID: 815877388}
+  - component: {fileID: 815877390}
   m_Layer: 0
   m_Name: Cookie 7
   m_TagString: Untagged
@@ -9612,10 +9899,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &815877388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9758,6 +10045,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &815877390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815877382}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -1.3562827e-10, y: 0.00000011934492, z: 0.002276419}
 --- !u!1 &819148033 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7536429512176719378, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -10159,6 +10467,7 @@ GameObject:
   - component: {fileID: 836689311}
   - component: {fileID: 836689310}
   - component: {fileID: 836689312}
+  - component: {fileID: 836689313}
   m_Layer: 0
   m_Name: Cheese 6 (3)
   m_TagString: Untagged
@@ -10276,10 +10585,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &836689311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10422,6 +10731,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &836689313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836689305}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028363548, z: 0.010968405}
 --- !u!1 &837502157
 GameObject:
   m_ObjectHideFlags: 0
@@ -11709,6 +12039,7 @@ GameObject:
   - component: {fileID: 953163420}
   - component: {fileID: 953163425}
   - component: {fileID: 953163424}
+  - component: {fileID: 953163426}
   m_Layer: 0
   m_Name: Cookie 5 (1)
   m_TagString: Untagged
@@ -11764,10 +12095,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &953163421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11982,6 +12313,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &953163426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953163418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000005974027, y: 0.00000011934492, z: 0.002275823}
 --- !u!1 &953869555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6507313113551483886, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -13802,6 +14154,7 @@ GameObject:
   - component: {fileID: 1132574662}
   - component: {fileID: 1132574661}
   - component: {fileID: 1132574663}
+  - component: {fileID: 1132574664}
   m_Layer: 0
   m_Name: Cheese 3
   m_TagString: Untagged
@@ -13919,10 +14272,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1132574662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14065,6 +14418,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &1132574664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132574656}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028365932, z: 0.010968353}
 --- !u!1 &1133711286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9029925570333607576, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -14107,6 +14481,7 @@ GameObject:
   - component: {fileID: 1141359658}
   - component: {fileID: 1141359657}
   - component: {fileID: 1141359659}
+  - component: {fileID: 1141359660}
   m_Layer: 0
   m_Name: Cheese 13
   m_TagString: Untagged
@@ -14224,10 +14599,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1141359658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14370,6 +14745,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &1141359660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141359652}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028361164, z: 0.010968353}
 --- !u!1 &1144081096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2050047883084412017, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -14459,6 +14855,7 @@ GameObject:
   - component: {fileID: 1157560582}
   - component: {fileID: 1157560584}
   - component: {fileID: 1157560583}
+  - component: {fileID: 1157560585}
   m_Layer: 0
   m_Name: Cookie 6
   m_TagString: Untagged
@@ -14586,10 +14983,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1157560583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14732,6 +15129,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &1157560585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157560577}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000005974027, y: 0.00000011934492, z: 0.002275823}
 --- !u!1 &1161987716 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6909276407183192483, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -15873,6 +16291,7 @@ GameObject:
   - component: {fileID: 1282041277}
   - component: {fileID: 1282041279}
   - component: {fileID: 1282041278}
+  - component: {fileID: 1282041280}
   m_Layer: 0
   m_Name: Cookie 13
   m_TagString: Untagged
@@ -16000,10 +16419,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1282041278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16146,6 +16565,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &1282041280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282041272}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000002993795, y: 0.000000089542596, z: 0.0022758378}
 --- !u!1 &1285684449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6433632286721160292, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -16380,6 +16820,7 @@ GameObject:
   - component: {fileID: 1314703369}
   - component: {fileID: 1314703368}
   - component: {fileID: 1314703370}
+  - component: {fileID: 1314703371}
   m_Layer: 0
   m_Name: Cheese 4
   m_TagString: Untagged
@@ -16497,10 +16938,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1314703369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16643,6 +17084,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &1314703371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314703363}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230077, y: 0.0028365932, z: 0.010968412}
 --- !u!1 &1321086674
 GameObject:
   m_ObjectHideFlags: 0
@@ -16748,6 +17210,7 @@ GameObject:
   - component: {fileID: 1326161738}
   - component: {fileID: 1326161740}
   - component: {fileID: 1326161739}
+  - component: {fileID: 1326161741}
   m_Layer: 0
   m_Name: Cookie 5
   m_TagString: Untagged
@@ -16875,10 +17338,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1326161739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17021,6 +17484,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &1326161741
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326161733}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -1.3562827e-10, y: 0.00000015659782, z: 0.002275823}
 --- !u!1 &1330651019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8081187469935502986, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -17178,6 +17662,7 @@ GameObject:
   - component: {fileID: 1343623842}
   - component: {fileID: 1343623841}
   - component: {fileID: 1343623843}
+  - component: {fileID: 1343623844}
   m_Layer: 0
   m_Name: Cheese 2
   m_TagString: Untagged
@@ -17295,10 +17780,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1343623842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17441,6 +17926,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &1343623844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343623836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028365932, z: 0.0109683825}
 --- !u!1 &1343855047
 GameObject:
   m_ObjectHideFlags: 0
@@ -18379,6 +18885,7 @@ GameObject:
   - component: {fileID: 1459781561}
   - component: {fileID: 1459781563}
   - component: {fileID: 1459781562}
+  - component: {fileID: 1459781564}
   m_Layer: 0
   m_Name: Cookie 10
   m_TagString: Untagged
@@ -18506,10 +19013,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1459781562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18652,6 +19159,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &1459781564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459781556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000002993795, y: 1.3562844e-10, z: 0.0022758788}
 --- !u!1 &1460778389
 GameObject:
   m_ObjectHideFlags: 0
@@ -19401,6 +19929,7 @@ GameObject:
   - component: {fileID: 1550426698}
   - component: {fileID: 1550426697}
   - component: {fileID: 1550426699}
+  - component: {fileID: 1550426700}
   m_Layer: 0
   m_Name: Cheese 6 (2)
   m_TagString: Untagged
@@ -19518,10 +20047,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1550426698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19664,6 +20193,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &1550426700
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550426692}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230405, y: 0.0028363548, z: 0.010968405}
 --- !u!1 &1553329261 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7023960935013885025, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
@@ -20253,6 +20803,7 @@ GameObject:
   - component: {fileID: 1622176318}
   - component: {fileID: 1622176317}
   - component: {fileID: 1622176319}
+  - component: {fileID: 1622176320}
   m_Layer: 0
   m_Name: Cheese 6
   m_TagString: Untagged
@@ -20370,10 +20921,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1622176318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20516,6 +21067,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &1622176320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622176312}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019229928, y: 0.002836258, z: 0.010968353}
 --- !u!1 &1630791969
 GameObject:
   m_ObjectHideFlags: 0
@@ -22454,6 +23026,7 @@ GameObject:
   - component: {fileID: 1840197599}
   - component: {fileID: 1840197601}
   - component: {fileID: 1840197600}
+  - component: {fileID: 1840197602}
   m_Layer: 0
   m_Name: Cookie 3
   m_TagString: Untagged
@@ -22581,10 +23154,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1840197600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22727,6 +23300,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &1840197602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840197594}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000002993795, y: 0.00000005974027, z: 0.0022755845}
 --- !u!1 &1841261765
 GameObject:
   m_ObjectHideFlags: 0
@@ -23316,6 +23910,7 @@ GameObject:
   - component: {fileID: 1909732244}
   - component: {fileID: 1909732243}
   - component: {fileID: 1909732245}
+  - component: {fileID: 1909732246}
   m_Layer: 0
   m_Name: Cheese 9
   m_TagString: Untagged
@@ -23433,10 +24028,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1909732244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23579,6 +24174,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &1909732246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909732238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019229928, y: 0.0028356395, z: 0.0109683825}
 --- !u!1 &1928542861
 GameObject:
   m_ObjectHideFlags: 0
@@ -25603,6 +26219,7 @@ GameObject:
   - component: {fileID: 2037890252}
   - component: {fileID: 2037890254}
   - component: {fileID: 2037890253}
+  - component: {fileID: 2037890255}
   m_Layer: 0
   m_Name: Cookie 11
   m_TagString: Untagged
@@ -25730,10 +26347,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &2037890253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25876,6 +26493,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &2037890255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037890247}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -0.00000005974027, y: 1.3562844e-10, z: 0.0022754653}
 --- !u!1 &2041000252
 GameObject:
   m_ObjectHideFlags: 0
@@ -26736,6 +27374,7 @@ GameObject:
   - component: {fileID: 2134648019}
   - component: {fileID: 2134648018}
   - component: {fileID: 2134648020}
+  - component: {fileID: 2134648021}
   m_Layer: 0
   m_Name: Cheese 6 (7)
   m_TagString: Untagged
@@ -26853,10 +27492,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &2134648019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26999,6 +27638,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &2134648021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134648013}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230405, y: 0.00283631, z: 0.010968412}
 --- !u!1 &2134867983
 GameObject:
   m_ObjectHideFlags: 0
@@ -27205,6 +27865,7 @@ GameObject:
   - component: {fileID: 5334037120304769958}
   - component: {fileID: 5334037120304769957}
   - component: {fileID: 5334037120304769959}
+  - component: {fileID: 5334037120304769960}
   m_Layer: 0
   m_Name: Cheese 1
   m_TagString: Untagged
@@ -27618,6 +28279,7 @@ GameObject:
   - component: {fileID: 8442510506509253393}
   - component: {fileID: 8442510506509253395}
   - component: {fileID: 8442510506509253394}
+  - component: {fileID: 8442510506509253396}
   m_Layer: 0
   m_Name: Cookie 1
   m_TagString: Untagged
@@ -27720,10 +28382,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &5334037120304769958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27866,6 +28528,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &5334037120304769960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485162091479}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048337843, y: 0.027808288, z: 0.020132853}
+  m_Center: {x: 0.019230166, y: 0.0028365932, z: 0.010968412}
 --- !u!23 &5509654437709518017
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28367,10 +29050,10 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &8442510506509253394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28513,6 +29196,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FoodPickupCookie
   pointValue: 3
+--- !u!65 &8442510506509253396
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5233112406188563104}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.036526766, y: 0.03652677, z: 0.004550942}
+  m_Center: {x: -1.3562827e-10, y: 0.0000002385542, z: 0.002275644}
 --- !u!23 &8571722093511394517
 MeshRenderer:
   m_ObjectHideFlags: 0

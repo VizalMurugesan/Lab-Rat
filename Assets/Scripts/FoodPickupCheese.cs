@@ -4,7 +4,9 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 public class FoodPickupCheese : MonoBehaviour
 {
     public int pointValue = 5;
+    public float disappearDelay = 1.5f;
     private XRGrabInteractable grab; 
+    private ParticleSystem particles;
 
     void Start()
     {
@@ -19,7 +21,16 @@ public class FoodPickupCheese : MonoBehaviour
         ScoreManager.instance.AddPoints(pointValue);
     else
         Debug.LogError("ScoreManager not found in scene!");
+    
+    if (particles != null)
+            particles.Play();
+    // Destroy(gameObject);
+    Invoke(nameof(Disappear), disappearDelay);
 
-    Destroy(gameObject);
+     void Disappear()
+    {
+        Destroy(gameObject);
+    }
 }
+
 }
