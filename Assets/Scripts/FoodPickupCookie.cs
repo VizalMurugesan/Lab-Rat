@@ -8,7 +8,7 @@ public class FoodPickupCookie : MonoBehaviour
 
     public float disappearDelay = 1.5f;
 
-    private ParticleSystem particles;
+    public ParticleSystem particles;
 
     void Start()
     {
@@ -29,9 +29,10 @@ public class FoodPickupCookie : MonoBehaviour
     // Destroy(gameObject);
     Invoke(nameof(Disappear), disappearDelay);
 
-     void Disappear()
+ 
+}
+    void Disappear()
     {
         Destroy(gameObject);
     }
-}
 }
