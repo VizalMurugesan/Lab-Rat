@@ -100,3 +100,8 @@ InitTestScene*.unity*
 
 
 /Assets/Samples/
+
+# Unity auto-generated project files
+*.csproj
+*.sln
+*.slnx
