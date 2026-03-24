@@ -17,7 +17,7 @@ public class ScoreManager : MonoBehaviour
     public void AddPoints(int points)
     {
         currentPoints += points;
-        Text.text = "Score" + points;
+        Text.text = "Score: " + points;
         Debug.Log("Points: " + currentPoints);
     }
 }
