@@ -21,9 +21,6 @@ void OnGrab(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs args)
 {
     Debug.Log("Grabbed! Particles null? " + (particles == null));
 
-    if (ScoreManager.instance != null)
-        ScoreManager.instance.AddPoints(pointValue);
-
     if (particles != null)
         particles.Play();
 
@@ -33,6 +30,8 @@ void OnGrab(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs args)
      void Disappear()
     {
         Destroy(gameObject);
+        if (ScoreManager.instance != null)
+            ScoreManager.instance.AddPoints(pointValue);
     }
 
 }

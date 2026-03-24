@@ -19,10 +19,10 @@ public class FoodPickupCookie : MonoBehaviour
 
     void OnGrab(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs args)
 {
-    if (ScoreManager.instance != null)
-        ScoreManager.instance.AddPoints(pointValue);
-    else
-        Debug.LogError("ScoreManager not found in scene!");
+    // if (ScoreManager.instance != null)
+    //     ScoreManager.instance.AddPoints(pointValue);
+    // else
+    //     Debug.LogError("ScoreManager not found in scene!");
     
     if (particles != null)
             particles.Play();
@@ -31,8 +31,10 @@ public class FoodPickupCookie : MonoBehaviour
 
  
 }
-    void Disappear()
+     void Disappear()
     {
         Destroy(gameObject);
+        if (ScoreManager.instance != null)
+            ScoreManager.instance.AddPoints(pointValue);
     }
 }
