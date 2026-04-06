@@ -4,34 +4,34 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 public class FoodPickupCookie : MonoBehaviour
 {
     public int pointValue = 3;
-    private XRGrabInteractable grab; 
-
     public float disappearDelay = 1.5f;
-
+    private XRGrabInteractable grab;
     public ParticleSystem particles;
+
+    [Header("Audio")]
+    public AudioClip eatSound;
+    private AudioSource audioSource;
 
     void Start()
     {
-        grab = GetComponent<XRGrabInteractable>(); 
+        grab = GetComponent<XRGrabInteractable>();
+        audioSource = GetComponent<AudioSource>();
+
         if (grab != null)
             grab.selectEntered.AddListener(OnGrab);
     }
 
     void OnGrab(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs args)
-{
-    // if (ScoreManager.instance != null)
-    //     ScoreManager.instance.AddPoints(pointValue);
-    // else
-    //     Debug.LogError("ScoreManager not found in scene!");
-    
-    if (particles != null)
-            particles.Play();
-    // Destroy(gameObject);
-    Invoke(nameof(Disappear), disappearDelay);
+    {
+        if (particles != null) particles.Play();
 
- 
-}
-     void Disappear()
+        if (audioSource != null && eatSound != null)
+            audioSource.PlayOneShot(eatSound);
+
+        Invoke(nameof(Disappear), disappearDelay);
+    }
+
+    void Disappear()
     {
         Destroy(gameObject);
         if (ScoreManager.instance != null)

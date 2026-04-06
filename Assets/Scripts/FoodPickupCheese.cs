@@ -5,33 +5,36 @@ public class FoodPickupCheese : MonoBehaviour
 {
     public int pointValue = 5;
     public float disappearDelay = 1.5f;
-    private XRGrabInteractable grab; 
+    private XRGrabInteractable grab;
     public ParticleSystem particles;
 
-  void Start()
-{
-    grab = GetComponent<XRGrabInteractable>();
-    Debug.Log("Grab found: " + (grab != null));
-    Debug.Log("Particles found: " + (particles != null));
+    [Header("Audio")]
+    public AudioClip eatSound;
+    private AudioSource audioSource;
 
-    if (grab != null)
-        grab.selectEntered.AddListener(OnGrab);
-}
-void OnGrab(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs args)
-{
-    Debug.Log("Grabbed! Particles null? " + (particles == null));
+    void Start()
+    {
+        grab = GetComponent<XRGrabInteractable>();
+        audioSource = GetComponent<AudioSource>();
 
-    if (particles != null)
-        particles.Play();
+        if (grab != null)
+            grab.selectEntered.AddListener(OnGrab);
+    }
 
-    Invoke(nameof(Disappear), disappearDelay);
-}
+    void OnGrab(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs args)
+    {
+        if (particles != null) particles.Play();
 
-     void Disappear()
+        if (audioSource != null && eatSound != null)
+            audioSource.PlayOneShot(eatSound);
+
+        Invoke(nameof(Disappear), disappearDelay);
+    }
+
+    void Disappear()
     {
         Destroy(gameObject);
         if (ScoreManager.instance != null)
             ScoreManager.instance.AddPoints(pointValue);
     }
-
 }
