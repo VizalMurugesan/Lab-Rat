@@ -3,12 +3,18 @@ using TMPro;
 using System.Net.Mime;
 
 public class ScoreCheckScript : MonoBehaviour
-{
+{    
+    public static ScoreCheckScript instance;
 
-    public GameObject gameObject;
-    public GameObject gameObject2;
-    public TextMeshProUGUI text;
+    public GameObject targetObject1;
+    public GameObject targetObject2;
+    public TextMeshProUGUI Text;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+   void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         
@@ -17,11 +23,18 @@ public class ScoreCheckScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ScoreManager.instance.AddPoints()
+        if (ScoreManager.instance.currentPoints >= 15){
+            Destroy(targetObject2)
+            Text.text = "Mousehole Open!"; 
+            Invoke(nameof(HideText), 2f);
+        }
         
     }
 
-    void check(){
-        if ScoreManager.instance.AddPoints()
-    }
+    void HideText()
+        {
+      Text.gameObject.SetActive(false);
+        }
+  
+
 }
