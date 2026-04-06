@@ -1319,6 +1319,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.009999999, y: 0.009999997, z: 0.009999996}
   m_Center: {x: 0.000000059604645, y: 0, z: -4.656613e-10}
+--- !u!1 &65301211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2281716468981002994, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
+  m_PrefabInstance: {fileID: 337221833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &65301215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65301211}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.009999999, y: 0.009999999, z: 0.009999999}
+  m_Center: {x: 0.000000007450581, y: 0.000000007450581, z: -4.656613e-10}
 --- !u!1 &73034932
 GameObject:
   m_ObjectHideFlags: 0
@@ -29645,6 +29671,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -327044867958836330, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1412212756}
+    - targetCorrespondingSourceObject: {fileID: 797974192501776763, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1658733627}
     - targetCorrespondingSourceObject: {fileID: -8665374912803100077, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1157872470}
@@ -29888,6 +29917,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1100862314580780063, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1958444262}
+    - targetCorrespondingSourceObject: {fileID: -2281716468981002994, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 65301215}
     - targetCorrespondingSourceObject: {fileID: 6238771837044933873, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 119872880}
@@ -79981,7 +80013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScoreCheckScript
   targetObject1: {fileID: 1070953890}
   targetObject2: {fileID: 1813602640}
-  text: {fileID: 1760095054}
+  Text: {fileID: 1760095054}
 --- !u!1 &1585695480
 GameObject:
   m_ObjectHideFlags: 0
@@ -81020,6 +81052,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658210393}
   m_Mesh: {fileID: -8234954865023109096, guid: 91fdd0eafd120ee4b9e174ffb76cb4e0, type: 3}
+--- !u!1 &1658733623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 797974192501776763, guid: 12efa37748de12e4bb7ec45f98ae75b1, type: 3}
+  m_PrefabInstance: {fileID: 337221833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1658733627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658733623}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.011487884, y: 0.0100000035, z: 0.01}
+  m_Center: {x: -0.00074392476, y: -0.0000000037252794, z: -1.6819095e-15}
 --- !u!1 &1663234290 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1842862291474320369, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -96483,15 +96541,15 @@ RectTransform:
   m_GameObject: {fileID: 1760095052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 0.002, y: 0.002, z: 0.002}
+  m_LocalScale: {x: 0.003, y: 0.003, z: 0.003}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1300829868}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 100}
+  m_AnchoredPosition: {x: -1.55, y: 0}
+  m_SizeDelta: {x: 500.34, y: 111.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760095054
 MonoBehaviour:
@@ -96513,7 +96571,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: You Got 15 points! Mouse hole is open!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -96522,8 +96580,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278725083
-  m_fontColor: {r: 0.85983825, g: 0.15964586, b: 0.031287827, a: 1}
+    rgba: 4278770527
+  m_fontColor: {r: 0.3716646, g: 0.85882354, b: 0.031372532, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -96540,7 +96598,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 89.5
+  m_fontSize: 49.2
   m_fontSizeBase: 161
   m_fontWeight: 400
   m_enableAutoSizing: 1
